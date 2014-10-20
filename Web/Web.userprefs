@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Web/Resources/Javascript/Pages/Site.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Web/Pages/Home.master">
     <Files>
-      <File FileName="Web/Resources/Javascript/Pages/Site.js" Line="3" Column="3" />
+      <File FileName="Web/Resources/Javascript/Pages/Site.js" Line="18" Column="18" />
+      <File FileName="Web/Pages/Site.master" Line="8" Column="8" />
+      <File FileName="Web/Pages/Home.master" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
