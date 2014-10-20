@@ -1,15 +1,21 @@
-﻿<%@ Master Language="C#" Inherits="Web.Site" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Web.Site" %>
+
 <!DOCTYPE html>
 <html>
 <head runat="server">
-	<title>Site</title>
+	<title>Portal</title>
+	<link href="~/Resources/Css/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Resources/Javascript/Libraries/jquery-v1-10-2.js"></script>
+    <script type="text/javascript" src="Resources/Javascript/Pages/Site.js"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
 <body>
 <div id="container">
 <form runat="server">
-    <asp:contentplaceholder id="contentPlaceHolder" runat="server" /> 
+    <asp:contentplaceholder id="BodyContent" runat="server" /> 
 </form>
 </div>
 </body>
 </html>
-

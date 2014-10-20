@@ -1,0 +1,23 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.transition {
+    -moz-transition: all ease 1s;
+    -o-transition: all ease 1s;
+    -webkit-transition: all ease 1s;
+    transition: all ease 1s;
+}
