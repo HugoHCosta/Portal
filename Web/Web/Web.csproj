@@ -48,5 +48,19 @@
     <Folder Include="Resources\Images\" />
     <Folder Include="Resources\Javascript\" />
     <Folder Include="Resources\Css\" />
+    <Folder Include="Usercontrols\" />
+    <Folder Include="Service\" />
+    <Folder Include="Resources\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pages\Site.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\Site.master.cs">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Site.master.designer.cs">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
