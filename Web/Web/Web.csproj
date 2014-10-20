@@ -45,5 +45,8 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Pages\" />
+    <Folder Include="Resources\Images\" />
+    <Folder Include="Resources\Javascript\" />
+    <Folder Include="Resources\Css\" />
   </ItemGroup>
 </Project>
